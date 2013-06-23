@@ -51,6 +51,12 @@ hgroup,
 nav,
 section {
   display: block;
+   
+
+}
+
+nav, li {
+  list-style-type: none;
 }
 
 audio,
