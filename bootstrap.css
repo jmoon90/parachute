@@ -8,6 +8,15 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+#money {
+  margin: 5% 0% 2% 0%;
+  text-align: left;
+}
+
+#move {
+  margin: 2% 0% 2% 0%;
+}
+
 .clearfix {
   *zoom: 1;
 }
