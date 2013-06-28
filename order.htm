@@ -5,6 +5,8 @@
     <link rel="stylesheet" type="html/css" href="bootstrap-responsive.css" />
     <link rel="stylesheet" type="html/css" href="bootstrap.css" />
     <link rel="stylesheet" type="html/css" href="docs.css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="count.js"></script>
   </head>
   
   <body>
@@ -21,7 +23,7 @@
         </div>
       </div><!-- heading ends-->
 
-
+    <div id="cost">
     <form>
       <fieldset>
         <legend>Options</legend>
@@ -29,10 +31,10 @@
           <div class="line">
             <label class="checkbox inline">
               
-              <input type="checkbox" id="inlineCheckbox"> <img src="pics/jar.jpg">
+              <input type="checkbox" name="Jar" value="2"> <img src="pics/jar.jpg">
             </label>
             <label class="checkbox inline">
-              <input type="checkbox" id="inlineCheckbox"><img src="pics/box.jpg">
+              <input type="checkbox" name="Box" value="1"><img src="pics/box.jpg">
             </label>
           </div>
 
@@ -44,42 +46,46 @@
 
           <label><h3>Popular</h3></label>
           <label class="span3" class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/gum.jpg">
+            <input type="checkbox" name="Gum" value="0.5"> <img src="pics/gum.jpg">
           </label>
           <label class="span3" class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/altoid.png">
+            <input type="checkbox" name="Altoid" value="1"> <img src="pics/altoid.png">
           </label>
 
           <label class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/nature.jpg"> <!-- 150 to 100 -->
+            <input type="checkbox" name="Nature" value="1"> <img src="pics/nature.jpg"> <!-- 150 to 100 -->
           </label>
           <label class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/lipbalm.jpg"> <!-- 150 to 100 -->
+            <input type="checkbox" name="Lipbalm" value="2"> <img src="pics/lipbalm.jpg"> <!-- 150 to 100 -->
           </label>
 
+          <label><h3>Basic</h3></label>
+          <input type="checkbox" value="5">
+          <ul> 
+            <li>Nice Pen (Trust us when we say nice)</li>
+            <li>Lid Label for jars or drawing on box</li>
+            <li>Extra decorative strings, fillers</li>
+          </ul>
 
           <label><h3>Extras</h3></label>
           <label class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/list.jpg">
+            <input type="checkbox" value="1.5"> <img src="pics/list.jpg">
           </label>
 
           <label class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/todo.jpg">
+            <input type="checkbox" value="1.5"> <img src="pics/todo.jpg">
           </label>
           
           <label class="checkbox inline">
-            <input type="checkbox" id="inlineCheckbox"> <img src="pics/pack.jpg">
+            <input type="checkbox" value="1.5"> <img src="pics/pack.jpg">
           </label>
-          
+    
 <br>
-        <div class="input-prepend input-append" id="money">
-          <span class="add-on">Total $</span>
-          <input class="span2" id="appendedPrependedInput" type="text">
-          <span class="add-on">.00</span>
-        </div>
+        Total Cost <input type="text" name="TotlCost" id="TotalCost" size="10"/>
         <div class="span12"><button type="submit" class="btn btn-primary" >Submit</button></div>
       </fieldset>
     </form>
+    </div>
 
 
       
