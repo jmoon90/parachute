@@ -8,6 +8,17 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+#contactleft {
+  float: left;
+  text-align: center;
+}
+
+#contactright {
+  float: right;
+  text-align: center;
+  height: 247px;
+}
+
 #money {
   margin: 5% 0% 2% 0%;
   text-align: left;
@@ -308,7 +319,7 @@ a:focus {
 }
 
 .span12 {
-  width: 940px;
+  width: 100%;
 }
 
 .span11 {
