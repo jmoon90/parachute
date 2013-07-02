@@ -14,7 +14,7 @@
 
 #contactleft {
   float: left;
-  text-align: center;
+  text-align: left;
 }
 
 #contactright {
@@ -1925,6 +1925,7 @@ input.search-query {
   margin-bottom: 0;
   vertical-align: middle;
   *zoom: 1;
+  align:center;
 }
 
 .form-search .hide,
