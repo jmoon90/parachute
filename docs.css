@@ -306,6 +306,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   border-top: 1px solid #e5e5e5;
   background-color: #f5f5f5;
   clear:both;
+  background-image: url("pics/brickwall.png");
 }
 .footer p {
   margin-bottom: 0;
